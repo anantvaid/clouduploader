@@ -9,6 +9,23 @@ usage() {
     exit 1
 }
 
+# Function to check AWS CLI installation
+check_aws_cli() {
+    if ! command -v aws &> /dev/null; then
+        echo "Error: AWS CLI is not installed. Please install it first."
+        exit 1
+    fi
+
+    # Check if credentials are configured
+    if ! aws sts get-caller-identity &> /dev/null; then
+        echo "Error: AWS credentials are not configured. Please run 'aws configure'."
+        exit 1
+    fi
+}
+
+# Check AWS CLI and credentials
+check_aws_cli
+
 # Check if at least one argument is provided
 if [ "$#" -lt 1 ]; then
     echo "Error: No file path provided."
