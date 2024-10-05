@@ -50,7 +50,7 @@ Run the script with the required parameters:
 Refer to the [Troubleshooting Guide]() for common issues and solutions.
 
 ## License 📝
-This project is licensed under the MIT License - see the XX file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/anantvaid/clouduploader/blob/main/LICENSE) file for details.
 
 ## Contributions 🤝
 Feel free to submit issues or pull requests for improvements!
