@@ -11,11 +11,12 @@ A simple bash-based CLI utility that enables user to quickly upload files to the
 
 ## Requirements 🛠️
 
-Before using the script, ensure you have the following installed:
+Before using the script, ensure you have the following installed and checked:
 1. **AWS CLI**: [Installation Guide](https://aws.amazon.com/cli/)
 2. **pv**: For displaying the progress bar.
    - On Ubuntu: `sudo apt install pv`
    - On macOS: `brew install pv`
+3. **<BUCKET_NAME>**: Change the BUCKET_NAME variable in the script to the actual S3 bucket name where you want to upload files.
 
 ## Installation ⚙️
 
