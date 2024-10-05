@@ -47,6 +47,10 @@ Run the script with the required parameters:
 ./clouduploader /path/to/file.txt --directory my_directory --storage-class STANDARD --encrypt your_password --link
 ```
 
+### Demo
+
+https://github.com/user-attachments/assets/222e7175-45ed-478c-928a-76d26427acca
+
 ## Troubleshooting 🛡️
 Refer to the [Troubleshooting Guide](https://github.com/anantvaid/clouduploader/blob/main/TROUBLESHOOTING.md) for common issues and solutions.
 
