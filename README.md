@@ -42,12 +42,12 @@ Run the script with the required parameters:
 - `--storage-class`: Specify the storage class (e.g., STANDARD, REDUCED_REDUNDANCY).
 - `--link`: Generate a shareable link after successful upload.
 
-### Example
+## Example 💡
 ```bash
 ./clouduploader /path/to/file.txt --directory my_directory --storage-class STANDARD --encrypt your_password --link
 ```
 
-### Demo
+## Demo 🎬
 
 https://github.com/user-attachments/assets/222e7175-45ed-478c-928a-76d26427acca
 
