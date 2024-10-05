@@ -80,7 +80,7 @@ while [[ "$#" -gt 0 ]]; do
 done
 
 # Prepare the S3 bucket and key
-BUCKET_NAME="clouduploader-ttwa"
+BUCKET_NAME="<BUCKET_NAME>"
 if [ -n "$TARGET_DIR" ];
 then
 	KEY="$TARGET_DIR/$(basename $FILE_PATH)"
