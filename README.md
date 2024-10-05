@@ -12,7 +12,7 @@ A simple bash-based CLI utility that enables user to quickly upload files to the
 ## Requirements 🛠️
 
 Before using the script, ensure you have the following installed:
-1. **AWS CLI**: [Installation Guide](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html)
+1. **AWS CLI**: [Installation Guide](https://aws.amazon.com/cli/)
 2. **pv**: For displaying the progress bar.
    - On Ubuntu: `sudo apt install pv`
    - On macOS: `brew install pv`
@@ -47,7 +47,7 @@ Run the script with the required parameters:
 ```
 
 ## Troubleshooting 🛡️
-Refer to the [Troubleshooting Guide]() for common issues and solutions.
+Refer to the [Troubleshooting Guide](https://github.com/anantvaid/clouduploader/blob/main/TROUBLESHOOTING.md) for common issues and solutions.
 
 ## License 📝
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/anantvaid/clouduploader/blob/main/LICENSE) file for details.
