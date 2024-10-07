@@ -44,7 +44,7 @@ Run the script with the required parameters:
 
 ## Example 💡
 ```bash
-./clouduploader.sh /path/to/file.txt --directory my_directory --storage-class STANDARD --encrypt your_password --link
+./clouduploader.sh /path/to/file.txt --directory my_directory --storage-class STANDARD --link
 ```
 
 ## Demo 🎬
