@@ -33,7 +33,7 @@ Before using the script, ensure you have the following installed and checked:
 ## Usage 📜
 Run the script with the required parameters:
    ```bash
-   ./clouduploader /path/to/file.txt [--directory target_directory] [--storage-class storage_class] [--link]
+   ./clouduploader.sh /path/to/file.txt [--directory target_directory] [--storage-class storage_class] [--link]
    ```
 
 ### Parameters:
@@ -44,7 +44,7 @@ Run the script with the required parameters:
 
 ## Example 💡
 ```bash
-./clouduploader /path/to/file.txt --directory my_directory --storage-class STANDARD --encrypt your_password --link
+./clouduploader.sh /path/to/file.txt --directory my_directory --storage-class STANDARD --encrypt your_password --link
 ```
 
 ## Demo 🎬
